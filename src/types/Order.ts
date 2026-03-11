@@ -1,11 +1,11 @@
 export type DeliveryApp =
   | "ubereats"
   | "demaecan"
-  | "rocketnow"
+  | "rocketnow";
 
 export type Order = {
   id: string
   app: DeliveryApp
   amount: number
   date: string
-}
+};
