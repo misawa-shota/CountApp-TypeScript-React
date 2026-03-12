@@ -65,6 +65,7 @@ export default function MonthlySummary() {
         <HStack
           w="100%"
           justify="space-between"
+          bg="whiteAlpha.200"
         >
           <Text>Uber Eats</Text>
           <Text>

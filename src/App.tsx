@@ -14,6 +14,7 @@ export default function App() {
   return (
 
     <Box
+      bg="gray.900"
       minH="100vh"
       p={6}
     >

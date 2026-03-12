@@ -16,7 +16,7 @@ export default function OpenDeliverApp() {
 
   return (
     <Box
-      bg="gray.900"
+      bg="whiteAlpha.200"
       p={6}
       borderRadius="xl"
     >
