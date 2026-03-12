@@ -5,7 +5,7 @@ import {
 } from "@chakra-ui/react";
 
 import { getOrders } from "../utils/Storage.js";
-import { getMonthlyTotal } from "../utils/Calculations.js";
+import { getMonthlyTotal, getMonthlyCount } from "../utils/Calculations.js";
 
 export default function GuiltScreen() {
 
@@ -13,6 +13,9 @@ export default function GuiltScreen() {
 
   const monthlyTotal =
     getMonthlyTotal(orders);
+
+    const count =
+        getMonthlyCount(orders);
 
   const yearly = monthlyTotal * 12;
   const fiveYears = yearly * 5;
@@ -39,6 +42,10 @@ export default function GuiltScreen() {
           color="red.400"
         >
           ¥{monthlyTotal.toLocaleString()}
+        </Text>
+
+        <Text color="yellow.300">
+          今月 {count} 回
         </Text>
 
         <Text color="gray.400">
