@@ -31,6 +31,7 @@ export default function MonthlySummary() {
 
     <Box
       bg="gray.900"
+      color="white"
       p={6}
       borderRadius="xl"
     >
@@ -62,36 +63,40 @@ export default function MonthlySummary() {
           アプリ別
         </Text>
 
-        <HStack
-          w="100%"
-          justify="space-between"
-          bg="whiteAlpha.200"
+        <Box
+          bg="white"
         >
-          <Text>Uber Eats</Text>
-          <Text>
-            {appCounts.ubereats}
-          </Text>
-        </HStack>
 
-        <HStack
-          w="100%"
-          justify="space-between"
-        >
-          <Text>出前館</Text>
-          <Text>
-            {appCounts.demaecan}
-          </Text>
-        </HStack>
+          <HStack
+            w="100%"
+            justify="space-between"
+          >
+            <Text>Uber Eats</Text>
+            <Text>
+              {appCounts.ubereats}
+            </Text>
+          </HStack>
 
-        <HStack
-          w="100%"
-          justify="space-between"
-        >
-          <Text>Rocket Now</Text>
-          <Text>
-            {appCounts.rocketnow}
-          </Text>
-        </HStack>
+          <HStack
+            w="100%"
+            justify="space-between"
+          >
+            <Text>出前館</Text>
+            <Text>
+              {appCounts.demaecan}
+            </Text>
+          </HStack>
+
+          <HStack
+            w="100%"
+            justify="space-between"
+          >
+            <Text>Rocket Now</Text>
+            <Text>
+              {appCounts.rocketnow}
+            </Text>
+          </HStack>
+        </Box>
 
       </VStack>
 

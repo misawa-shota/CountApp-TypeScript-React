@@ -45,7 +45,7 @@ export default function AddOrderForm() {
   return (
 
     <Box
-      bg="whiteAlpha.200"
+      bg="white"
       p={6}
       borderRadius="xl"
     >
