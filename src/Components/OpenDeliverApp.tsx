@@ -7,11 +7,11 @@ export default function OpenDeliverApp() {
   };
 
   const openDemae = () => {
-    window.location.href = "demaecan://"
+    window.location.href = "https://demae-can.com/"
   };
 
   const openRocket = () => {
-    window.location.href = "rocketnow://"
+    window.location.href = "https://rocketnow.jp/"
   };
 
   return (
