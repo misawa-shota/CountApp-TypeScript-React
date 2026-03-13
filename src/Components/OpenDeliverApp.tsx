@@ -11,7 +11,7 @@ export default function OpenDeliverApp() {
   };
 
   const openRocket = () => {
-    window.location.href = "https://rocketnow.jp/"
+    window.location.href = "rocket-now://"
   };
 
   return (
